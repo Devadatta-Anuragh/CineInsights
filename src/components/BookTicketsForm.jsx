@@ -6,7 +6,7 @@ const BookTicketsForm = () => {
   const { moviename } = state;
   return (
     <div className="flex flex-col justify-center items-center">
-      <h1 className="font-palanquin capitalize text-4xl lg:max-w-lg font-bold">
+      <h1 className="font-palanquin capitalize text-4xl max-lg:text-2xl lg:max-w-lg font-bold">
         Book Tickets for "{moviename}"
       </h1>
       <Form method="POST" className="max-w-md mx-auto mt-8">

@@ -2,7 +2,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
   return (
-    <header className="padding-x pb-8 pt-1 absolute z-10 w-full bg-slate-300">
+    <header className="padding-x pb-8 pt-1  z-10 w-full bg-slate-300">
       <nav className="flex justify-between items-center max-container py-0">
         <a href="/" className=" h-8 ">
           <img

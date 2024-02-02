@@ -8,7 +8,7 @@ const MoviesCardContainer = () => {
   const { fetching } = useContext(MoviesListContext);
 
   return (
-    <section id="products" className="max-container max-sm:mt-12">
+    <section id="products" className="max-container max-sm:mt-0">
       <div className="flex flex-col justify-start gap-5">
         <h2 className="text-4xl font-palanquin font-bold ">Movies | Shows</h2>
       </div>

@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import Header from "./components/Header";
 import { MoviesListContextProvider } from "./store/MoviesListData";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <section className="padding">
           <Outlet />
+          <SpeedInsights />
         </section>
       </main>
     </MoviesListContextProvider>
