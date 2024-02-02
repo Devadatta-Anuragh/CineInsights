@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
+import App from "./routes/App.jsx";
 import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MoviesCardContainer from "./components/MoviesCardContainer.jsx";
-import MovieSummary from "./components/MovieSummary.jsx";
+import MovieSummary from "./routes/MovieSummary.jsx";
 import BookTicketsForm, {
   bookTicketSubmit,
-} from "./components/BookTicketsForm.jsx";
+} from "./routes/BookTicketsForm.jsx";
 
 const router = createBrowserRouter([
   {
