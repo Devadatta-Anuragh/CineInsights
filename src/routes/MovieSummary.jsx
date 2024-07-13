@@ -63,9 +63,13 @@ const MovieSummary = () => {
               : "Genre : Not Avaialble"}
           </p>
         </div>
-        <p className="mt-4 lg:max-w-lg info-text">
+        {/* <p className="mt-4 lg:max-w-lg info-text">
           {show.summary.slice(3, -4)}
-        </p>
+        </p> */}
+        <div
+          className="mt-4 lg:max-w-lg info-text"
+          dangerouslySetInnerHTML={{ __html: show.summary }}
+        ></div>
         <div className="mt-11">
           <button
             type="button"
